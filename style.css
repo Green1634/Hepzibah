@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+header{
+    background-image: url(img/bg_1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 660px;
+    width: 100%;
+    position: relative;
+    
+
+}
+@media screen and (max-width: 670px) {
+    header{
+        min-height: 300px;
+    }
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: ' ';
+    opacity: .05;
+    background: black ;
+}
+
+.subheading {
+    padding-top: 13rem;
+    font-size: 16px;
+    color: rgba(255,255,255,0.9); 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-decoration: white;
+    padding-left: 15%;
+    padding-left: 15%;
+  
+
+}
+
+#subhead{
+    color: #fff;
+    line-height: 1.2;
+    font-weight: 700;
+    font-family: "poppins", Arial, sans-serif;
+    margin-bottom: 2.4rem;
+    letter-spacing: 1.8px;
+
+}
+
+.quote {
+    padding-left: 15%;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#cost {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#adds {
+    margin-top: -3em;
+    background: black;
+}
+#test{
+    background: url(img/hez2.jpg);
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    width: 50%;
+}
+
+#test2{
+    background-color: blanchedalmond;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    width: 50%;
+    
+}
+
+@media (max-width: 991.98px) {
+#test {
+    height: 500px;
+    width: 100% !important;
+}
+}
+
+@media (max-width: 991.98px) {
+    #test2 {
+        height: 500px;
+        width: 100% !important;
+    }
+    }
+#about {
+    padding:0;
+    margin-top:-2em;
+}
+
+#about2{
+    padding-left: 2em;
+    padding-top: 2em;
+    padding-right: 2em;
+}
+
+#sub{
+    display: inline-block;
+    color: #cbb88c;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    position: relative;
+    font-family: "poppins", Arial, sans-serif;
+}
+
+@media screen and (max-width: 670px) {
+    #about3{
+        font-size: 28px;
+    }
+}
+
+#about3 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.7);
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: "poppins", Arial, sans-serif;
+    margin-top: -2rem;
+}
+
+#services {
+    margin-bottom: 20px;
+    width: 50%;
+    display: flex !important;
+}
+
+@media screen and (max-width: 670px) {
+    #services{
+        width: 100px;
+    }
+}
+
+#paragraph {
+    font-weight: "poppins", Arial, sans-serif;;
+    /* line-height: 1.5px; */
+    font-weight: 500;
+    text-align: justify;
+
+
+}
+
+
+#lower {
+    padding-bottom: 2em;
+    text-align: right;
+}
+
+#media {
+    margin-top: 25em;
+    margin-left: 15em;
+    color: #cbb88c;
+}
+
+
+@media screen and (max-width: 670px) {
+    #media{
+        margin-left: 10em;
+    }
+}
+
+#practice {
+    color: #cbb88c;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    position: relative;
+    font-family: "poppins", Arial, sans-serif;
+    padding-top: 3rem;
+}
+
+#practice2 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.7);
+    display: block;
+    /* margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+    font-family: "poppins", Arial, sans-serif;
+    margin-top: 2rem;
+}
+
+#jobs {
+    margin-left: 10em;
+    margin-right: 3em;
+    /* margin-bottom: 20px; */
+    
+    
+}
+
+.job{
+    margin-bottom: 2em;
+    margin-left: 2em;
+}
+
+#job-title {
+    font-family: "poppins", Arial, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-align: center;
+    /* text-decoration: bold; */
+    text-align: center !important;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+}
+
+#paragraph2 {
+    font-weight: "poppins", Arial, sans-serif;;
+    /* line-height: 1.5px; */
+    font-weight: 500;
+    text-align: center;
+
+
+
+}
