@@ -268,3 +268,7 @@ header{
   #submit {
       padding-bottom: 3em;
   }
+
+  #team {
+      background: url(img/bac2.jpg);
+  }
