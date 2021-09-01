@@ -191,9 +191,9 @@ header{
 }
 
 #practice2 {
-    font-weight: 700;
-    margin-bottom: 1rem;
-    line-height: 1.5;
+    font-weight: 400;
+    margin-bottom: rem;
+    line-height: 1;
     color: rgba(0, 0, 0, 0.7);
     display: block;
     /* margin-block-start: 0.83em;
@@ -201,11 +201,11 @@ header{
     margin-inline-start: 0px;
     margin-inline-end: 0px; */
     font-family: "poppins", Arial, sans-serif;
-    margin-top: 2rem;
+    margin-top: rem;
 }
 
 #jobs {
-    margin-left: 10em;
+    margin-left: 8em;
     margin-right: 3em;
     /* margin-bottom: 20px; */
     
@@ -246,20 +246,32 @@ header{
 
 #card1 {
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
-    max-width: 300px;
+    /* max-width: 300px; */
     margin: auto;
     text-align: center;
     font-family: arial;
-    margin-right: 4em;
-    margin-right: 4em;
-    max-height: 500px;
+    /* margin-right: 4em;
+    margin-right: 4em; */
+    /* max-height: 500px; */
+    width: 30%;
+    height: 30%;
+    margin-left: 20px;
   }
   
+/* .card{
+    width: 70%;
+    height: 50%;
+} */
+
   .title {
     color: grey;
     font-size: 18px;
   }
 
+  .title1 {
+    color: grey;
+    font-size: 15px;
+  }
   #photo {
     width: 100%;
     height: 100%
@@ -283,9 +295,13 @@ header{
 }
 
 .display-1{
-    font-size: 22px;
+    font-size: 16px;
 }
 
+.display-2{
+    font-size: 13px;
+    inline-size: .5px;
+}
 .post-footer .post-author{
     position: relative;
     margin-top: 4em;
@@ -325,7 +341,9 @@ header{
 
 #next 
 {
-    margin-left: 1em;
+    margin-left: 12em;
+    padding-left: 3em;
+
 }
 
 #indent {
@@ -336,4 +354,7 @@ header{
 #indent2{
     padding-left: 4em;
     padding-right: 4em;
+}
+.test {
+    margin-top: 0.5px;
 }
